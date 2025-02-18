@@ -9,7 +9,7 @@
         <div class="grid grid-cols-5 items-center">
             <div class="col-span-5 md:col-span-2 text-center md:text-left mt-10 md:mt-15 mx-10">
                 <h1 class="uppercase font-sans font-bold mb-8">Hello, <span class="text-teal-700">My name is</span></h1>
-                <h1 class="text-2xl md:text-4xl mb-8 tracking-widest">M <span class="text-teal-700">Irfanul Kalam</span>
+                <h1 class="text-2xl md:text-4xl mb-8">M <span class="text-teal-700">Irfanul Kalam</span>
                     Chowdhury</h1>
                 <h1 class="font-medium mb-8">I AM A <span class="decoration-sky-500 decoration-wavy">Web
                         Developer</span></h1>
@@ -35,7 +35,7 @@
                     Download CV
                 </button>
             </div>
-            <div class="col-span-5 md:col-span-3">
+            <div class="col-span-5 md:col-span-3 mt-8">
                 <div class="relative -mt-120 md:-mt-0">
                     <center>
                         <div

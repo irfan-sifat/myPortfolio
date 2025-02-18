@@ -5,6 +5,12 @@ import skillSection from '@/components/SkillSection.vue'
 import portfolioSection from '@/components/portfolioSection.vue';
 </script>
 
+<style>
+body {
+  overflow-x: hidden;
+}
+</style>
+
 <template>
   <heroSection />
   <serviceSection />
