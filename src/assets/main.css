@@ -1,0 +1,58 @@
+@import "tailwindcss";
+/* @import "flowbite"; */
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.pacifico {
+    font-family: "Pacifico", "system-ui";
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.montserrat{
+    font-family: "Montserrat", system-ui;
+}
+
+@keyframes slideOpen {
+    0% {
+        transform: scaleX(0);
+        transform-origin: left;
+    }
+
+    100% {
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+}
+
+.animate-slide-open {
+    animation: slideOpen 1s ease-in-out forwards;
+}
+
+@keyframes borderAnimation {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.hover-animate-border {
+    position: relative;
+    cursor: pointer;
+}
+
+.hover-animate-border::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: theme('colors.teal.700'); /* Use Tailwind color */
+    transition: width 0.5s ease-in-out;
+}
+
+.hover-animate-border:hover::after {
+    width: 100%;
+}
