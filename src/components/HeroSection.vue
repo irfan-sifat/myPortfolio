@@ -1,10 +1,11 @@
 <script setup>
     import patImage from "@/assets/images/pat-1.png";
     import socialMediaIcon from '@/components/socialMedia.vue';
+    import myPhoto from '@/assets/images/myPhoto.png';
 </script>
 
 <template>
-    <div class="min-h-screen bg-gray-50">
+    <div class="min-h-screen bg-gray-50 py-10">
         <div class="grid grid-cols-5 items-center">
             <div class="col-span-5 md:col-span-2 text-center md:text-left mt-10 md:mt-15 mx-10">
                 <h1 class="uppercase font-sans font-bold mb-8">Hello, <span class="text-teal-700">My name is</span></h1>
@@ -39,8 +40,8 @@
                     <center>
                         <div
                             class="relative bg-teal-600 w-80 md:w-120 h-80 md:h-120 rounded-full justify-center flex z-1">
-                            <img src="https://irfansifat.netlify.app/static/media/profile.26a60fb3.jpeg"
-                                alt="Your Image" class="absolute w-full h-full -mt-2 rounded-full">
+                            <img :src="myPhoto"
+                                alt="Your Image" class="absolute w-110 h-auto -mt-30 rounded-full">
                         </div>
                     </center>
                     <div class="w-50 absolute -top-3 md:top-0 right-1 md:right-20 z-0">
